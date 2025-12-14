@@ -992,9 +992,6 @@ button, .icon-btn, .activity-btn, .gift-box, a, input {
     #greeting-text { font-size: 2.2em; padding: 20px; }
     #banner svg { width: 100%; }
     .activity-btn { width: 85vw; }
-    
-    /* HIDE SIDE KRISHNA ON SMALL PHONES TO PREVENT OVERLAP */
-    #side-krishna-wrapper { display: none; }
 
     /* Center Modal on Mobile */
     .modal {
