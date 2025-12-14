@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Saniya! ✨</title>
+
+    <meta property="og:title" content="Happy Birthday Saniya! ✨" />
+    <meta property="og:description" content="A sparkly surprise is waiting for you... 👀🎁" />
+    <meta property="og:image" content="https://shivam179mathur.github.io/bday/kanha.png" />
+    <meta property="og:type" content="website" />
+
+    <link rel="icon" type="image/png" href="kanha.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300italic" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+       (function(){
+          // ✅ YOUR PUBLIC KEY IS SET HERE
+          emailjs.init("My-qu6btxl2FBYpcH"); 
+       })();
+    </script>
+</head>
+<body>
+
+    <div id="start-screen">
+        <div class="start-content">
+            <h1>Are you ready, Saniya? ✨</h1>
+            <button id="start-btn">Enter Surprise 🎁</button>
+        </div>
+    </div>
+
+    <div id="sparkle-container"></div>
+    <div id="hearts-container"></div>
+    <div id="balloon-container"></div>
+    <div id="confetti-container"></div>
+    <div id="fireworks-container"></div>
+    <div id="cursor-trail-container"></div>
+    <div id="shooting-star-container"></div>
+
+    <div id="side-krishna-wrapper">
+        <img src="side1.png" id="side-krishna" alt="Krishna watching you">
+    </div>
+
+    <ul class="light-rope" id="fairy-lights">
+        <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+        <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+        <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+    </ul>
+
+    <div id="banner">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 100">
+          <defs>
+            <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+              <feDropShadow dx="2" dy="2" stdDeviation="2" flood-color="#00000033"/>
+            </filter>
+          </defs>
+          <path d="M10,20 Q250,-10 490,20" stroke="#ff4081" stroke-width="3" fill="none" filter="url(#shadow)"/>
+          <g transform="translate(40, 25)"><path d="M0,0 l15,35 l15,-35 Z" fill="#4caf50" filter="url(#shadow)"/><text x="15" y="20" font-family="Poppins" font-weight="bold" font-size="20" fill="white" text-anchor="middle">H</text></g>
+          <g transform="translate(80, 28)"><path d="M0,0 l15,35 l15,-35 Z" fill="#ff9800" filter="url(#shadow)"/><text x="15" y="20" font-family="Poppins" font-weight="bold" font-size="20" fill="white" text-anchor="middle">A</text></g>
+          <g transform="translate(120, 30)"><path d="M0,0 l15,35 l15,-35 Z" fill="#2196f3" filter="url(#shadow)"/><text x="15" y="20" font-family="Poppins" font-weight="bold" font-size="20" fill="white" text-anchor="middle">P</text></g>
+          <g transform="translate(160, 31)"><path d="M0,0 l15,35 l15,-35 Z" fill="#9c27b0" filter="url(#shadow)"/><text x="15" y="20" font-family="Poppins" font-weight="bold" font-size="20" fill="white" text-anchor="middle">P</text></g>
+          <g transform="translate(200, 30)"><path d="M0,0 l15,35 l15,-35 Z" fill="#f44336" filter="url(#shadow)"/><text x="15" y="20" font-family="Poppins" font-weight="bold" font-size="20" fill="white" text-anchor="middle">Y</text></g>
+          <g transform="translate(280, 30)"><path d="M0,0 l15,35 l15,-35 Z" fill="#e91e63" filter="url(#shadow)"/><text x="15" y="20" font-family="Poppins" font-weight="bold" font-size="20" fill="white" text-anchor="middle">B</text></g>
+          <g transform="translate(320, 31)"><path d="M0,0 l15,35 l15,-35 Z" fill="#3f51b5" filter="url(#shadow)"/><text x="15" y="20" font-family="Poppins" font-weight="bold" font-size="20" fill="white" text-anchor="middle">D</text></g>
+          <g transform="translate(360, 28)"><path d="M0,0 l15,35 l15,-35 Z" fill="#ffeb3b" filter="url(#shadow)"/><text x="15" y="20" font-family="Poppins" font-weight="bold" font-size="20" fill="white" text-anchor="middle">A</text></g>
+          <g transform="translate(400, 25)"><path d="M0,0 l15,35 l15,-35 Z" fill="#00bcd4" filter="url(#shadow)"/><text x="15" y="20" font-family="Poppins" font-weight="bold" font-size="20" fill="white" text-anchor="middle">Y</text></g>
+        </svg>
+    </div>
+
+    <div id="message-container">
+        <div id="greeting-box">
+            <h1 id="greeting-text"></h1>
+        </div>
+        
+        <div id="button-container">
+            <button id="yes-btn" class="btn pulse-btn">Yes! i'm very exited! 💖</button>
+            <button id="no-btn" class="btn">Nahh</button>
+        </div>
+        
+        <div id="activity-container">
+            <button id="decorate-btn" class="activity-btn">✨ sajawat ho jaye 😎</button>
+            <button id="balloons-btn" class="activity-btn">🎈 Balloons uda dooo🎈</button>
+            <button id="music-btn" class="activity-btn">🎵 yeshhhhhh my music !</button>
+            <button id="cake-btn" class="activity-btn">🎂 Cake bhi hai !!</button>
+        </div>
+    </div>
+
+    <div id="cake-container"></div>
+
+    <div id="icons-wrapper">
+        <div id="kanha-icon" class="icon-btn kanha-icon-btn" title="Talk to Thakurji">
+            <div class="kanha-icon-inner">
+                <img src="kanha.png" alt="Thakurji" class="kanha-icon-img">
+                <span class="kanha-thinking">💭</span>
+            </div>
+        </div>
+
+        <div id="message-icon" class="icon-btn" title="Read Message">💌</div>
+        <div id="gift-icon" class="icon-btn" title="Open Gift">🎁</div>
+        <div id="wish-icon" class="icon-btn" title="Make a Wish">⭐</div>
+    </div>
+
+    <div id="message-box" class="modal glass-panel">
+        <button class="close-btn">&times;</button>
+        <div class="modal-content">
+            <p id="typewriter-text"></p>
+            <div id="surprise-link-container">
+                <a href="https://shivam179mathur.github.io/web2/" target="_blank" class="surprise-link">
+                    its an suprise for you hope you'll like it 🎁
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="wish-box" class="modal glass-panel">
+        <button class="close-btn">&times;</button>
+        <p class="modal-title">Make a Birthday Wish ✨</p>
+        <div class="input-group">
+            <input type="text" id="wish-input" placeholder="Type your wish here...">
+            <button id="send-wish-btn">Send to Universe 🚀</button>
+        </div>
+    </div>
+
+    <div id="gift-modal" class="modal glass-panel">
+        <button class="close-btn">&times;</button>
+        <p class="modal-title">A Surprise for You!</p>
+        <div class="gift-container-3d">
+            <div class="gift-box">
+                <div class="gift-lid">
+                    <div class="gift-bow"></div>
+                </div>
+                <div class="gift-body"></div>
+            </div>
+            <div class="gift-content">
+                <p>🎟️ Coupon: <br> 1 Free "Yes" Day! <br> (Valid forever)</p>
+            </div>
+        </div>
+        <p id="tap-to-open">Tap to Open!</p>
+    </div>
+
+    <div id="kanha-modal" class="modal glass-panel">
+        <button class="close-btn">&times;</button>
+        <p class="modal-title">A Message From Him✨</p>
+
+        <div class="kanha-content">
+            <div class="kanha-circle">
+                <img src="kanha.png" alt="Thakurji" class="kanha-img">
+                <span class="kanha-peacock">🦚</span>
+                <span class="kanha-flute">🪈</span>
+            </div>
+
+            <p id="kanha-line-1" class="kanha-line"></p>
+            <p id="kanha-line-2" class="kanha-line"></p>
+            <p id="kanha-line-3" class="kanha-line"></p>
+            <p id="kanha-line-4" class="kanha-line"></p>
+            <p id="kanha-line-5" class="kanha-line"></p>
+        </div>
+    </div>
+
+    <audio id="birthday-audio" src="aud.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
